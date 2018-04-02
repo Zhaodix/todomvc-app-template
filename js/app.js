@@ -27,9 +27,9 @@
     el: '#todoapp',
     data: {
       inputText: '',
-      todos,
+      todos, // 任务列表数据源
       currentEdit:null,//用来判定任务项是否获的editing 的样式的一个标记变量
-      backTitle:''
+      backTitle:'' // 仅仅用于备份我们的编辑之前的任务项的 title，编辑之前先备份，取消编辑回退
 
     },
     methods: {
